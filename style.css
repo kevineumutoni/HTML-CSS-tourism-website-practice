@@ -135,3 +135,42 @@
   background-color: rgb(214, 214, 247);
 
  }
+ .back{
+  padding: 20px 30px;
+  font-size: 18px;
+  background-color:purple;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 50px;
+ }
+ .back:hover{
+  background-color: blue;
+  font-weight: bolder;
+ }
+ .seoul:hover{
+  background-color: rgba(52, 70, 226, 0.6);
+ }
+ .gyeongju:hover{
+  background-color: #42530d;
+ }
+ .busan:hover{
+  background-color: purple;
+ }
+ .jeju-island:hover{
+  background-color: #cba2ae;
+ }
+ .jinhae:hover{
+  background-color: blue;
+ }
+ .first-part-korea:hover{
+  background-color: #42530d;
+ }
+ .korea-paragraph:hover{
+  color: white;
+ }
+ .back-up{
+  color: white;
+  text-decoration: none;
+ }
