@@ -460,6 +460,10 @@ label{
 .dollar img{
   width: 100%;
 }
+#banner-details{
+  color: white;
+  text-decoration: none;
+}
 .name{
   font-size: 30px;
 
@@ -496,6 +500,7 @@ label{
 }
 form{
   padding-left:50px ;
+  font-family: "Tajawal", sans-serif;
 }
 .financial{
   margin-bottom: 40px;
@@ -526,3 +531,96 @@ footer {
 .copyright{
   font-size: 20px;
 }
+/* small tiny phones  */
+@media (max-width: 360px) {
+  body {
+    font-size: 14px;
+  }
+  .banner{
+    width: 100%;
+  }
+  .banner-heading{
+    font-size: 20px;
+    color: purple;
+  }
+  .banner-heading:hover{
+    
+  }
+
+}
+/* Standard smartphones iphones, samsung */
+@media (min-width: 361px) and (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+/* Large smartphones / small tablets  */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  .banner{
+    background-size: 100%;
+    height: 50vh;
+
+
+  }
+  .banner-header{
+    width: 90%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+
+  }
+  .logo{
+    width: 3%;
+    height: 50px;
+    
+  }
+  .logo-text{
+    width: 100%;
+    font-size: 10px;
+  }
+  .navigation{
+    width: 100%;
+    height: 30px;
+  }
+  .nav-links{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+/* Small tablets in portrait mode */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+/* Large tablets or tablets in landscape */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Standard laptops/desktops */
+@media (min-width: 1200px) and (max-width: 1599px) {
+  body {
+    font-size: 18px;
+  }
+}
+/* Smart TVs or extra-large monitors */
+@media (min-width: 1600px) {
+  body {
+    font-size: 20px;
+  }
+}
+
